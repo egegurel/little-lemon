@@ -1,7 +1,8 @@
 import React from 'react';
 import restauranfood from './icons_assets/restauranfood.jpg';
-
-
+import greeksalad from './icons_assets/greek_salad.jpg';
+import lemondessert from './icons_assets/lemon_dessert.jpg';
+import bruchetta from './icons_assets/bruchetta.jpg';
 
 const Main = () => {
   return (
@@ -25,13 +26,31 @@ const Main = () => {
     <div className='specials'>
 
     <div className="first-special">
-      <h2>Greek Salad</h2>
+      <img src={greeksalad} alt="Greek Salad" width={250} height={250} />
+      <div className="first-special-text">
+        <h2>Greek Salad</h2>
+        <h2 class="h2C">$12.99</h2>
+      </div>  
+      <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
+
   </div>
     <div className="second-special">
-      <h2>Bruschetta</h2>
+      <img src={bruchetta} alt="Bruschetta" width={250} height={250} />
+      <div className="second-special-text">
+         <h2>Bruschetta</h2>
+        <h2 class="h2C">$5.99</h2>
+      </div>
+      <p> Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.  </p>
+
     </div>
     <div className="third-special">
-      <h2>Lemon Dessert</h2>
+      <img src={lemondessert} alt="Lemon Dessert" width={250} height={250} />
+      <div className="third-special-text">
+        <h2>Lemon Dessert</h2>
+        <h2 class="h2C">$6.99</h2>
+        
+      </div>
+      <p>This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
     </div>
   </div>
 

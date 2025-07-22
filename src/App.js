@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Nav from './Nav';
-import Header from './Header';
+//import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
  
@@ -18,7 +18,7 @@ import Menu from './Menu';
 const App = () => {
   return(
     <div className="App">
-      <Header/>
+    
         <Nav/>
         <div className='routesButtons'>
           <Routes>
