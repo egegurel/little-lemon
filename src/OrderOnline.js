@@ -1,10 +1,8 @@
 const OrderOnline = () => {
   return (
-    <header>
-      <h1>OrderOnline</h1>
-      
-      
-    </header>
+    <div>
+       
+    </div>
   );
 }
 
